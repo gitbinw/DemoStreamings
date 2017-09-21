@@ -128,6 +128,9 @@
   .main .item-container a:hover {
     text-decoration: none; }
 
+.main .item-container.home-container {
+  justify-content: initial; }
+
 .main .home-menus div {
   position: relative;
   background: #1e1e1e;
