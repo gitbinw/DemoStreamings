@@ -25,7 +25,7 @@ export default class Home extends React.Component {
         return(
             <div>
                 <h3 className="title">{title}</h3>
-                <div className="item-container">
+                <div className="item-container home-container">
                     {jsxMenus}
                 </div>
             </div>
