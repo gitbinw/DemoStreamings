@@ -1,17 +1,156 @@
-label.control-label {
-  color: #000; }
+.hidden {
+  display: none; }
 
-textarea {
-  resize: none; }
+.header {
+  background: #0092ff;
+  padding: 20px 5%; }
+  .header span.title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px; }
+  .header .header-menus {
+    float: right;
+    position: relative;
+    margin-top: 5px; }
+    .header .header-menus .hamburger {
+      display: none;
+      font-size: 25px; }
+    .header .header-menus .header-menusbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 8px 10px; }
+    .header .header-menus .header-menusbar a:last-child {
+      background: #000; }
 
-.form-group-inline-checkbox {
-  display: flex; }
-  .form-group-inline-checkbox input {
-    width: 24px;
-    height: 24px;
+.footer {
+  background: #1e1e1e;
+  padding: 30px 5%; }
+  .footer ul {
+    display: inline-block;
+    list-style: none;
     margin: 0;
-    margin-left: 10px; }
+    padding: 0; }
+    .footer ul li {
+      float: left;
+      padding: 0; }
+      .footer ul li a {
+        color: #fff;
+        font-size: 12px;
+        padding: 0 10px;
+        border-right: 1px solid #fff; }
+    .footer ul li:last-child a {
+      border-right: none; }
+  .footer p {
+    padding: 10px;
+    font-size: 12px;
+    color: #fff; }
+  .footer .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-between; }
+    .footer .footer-bottom .socials, .footer .footer-bottom .platforms {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 10px; }
+      .footer .footer-bottom .socials a, .footer .footer-bottom .platforms a {
+        flex: 0;
+        margin: 0 15px; }
+      .footer .footer-bottom .socials a img, .footer .footer-bottom .platforms a img {
+        width: 32px;
+        height: 32px;
+        margin-top: 5px; }
+    .footer .footer-bottom .platforms a {
+      margin: 0 5px; }
+    .footer .footer-bottom .platforms a img {
+      width: auto; }
 
-.form-group .help-block {
-  position: inherit;
-  bottom: inherit; }
+@media (max-width: 640px) {
+  .header .header-menus .hamburger {
+    display: inline-block; }
+  .header .header-menus .header-menusbar {
+    display: none; }
+    .header .header-menus .header-menusbar a {
+      display: block; }
+    .header .header-menus .header-menusbar a:last-child {
+      background: none; }
+  .header .header-menus .header-menusbar.menubar-dropdown {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 200px;
+    background: #414141; }
+  .footer ul li {
+    float: none; }
+  .footer ul li a {
+    border: none; } }
+
+.main .title {
+  font-size: 18px;
+  background: #414141;
+  padding: 10px 5%;
+  margin: 0;
+  width: 100%;
+  color: #fff; }
+
+.main .item-container {
+  margin: 2% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .main .item-container .item {
+    width: 130px;
+    height: 240px;
+    margin: 5px;
+    text-align: center; }
+    .main .item-container .item span {
+      text-align: center;
+      display: block;
+      line-height: 16px; }
+  .main .item-container .item:after {
+    content: "";
+    flex: auto; }
+  .main .item-container a:hover {
+    text-decoration: none; }
+
+.main .home-menus div {
+  position: relative;
+  background: #1e1e1e;
+  height: 200px;
+  display: block;
+  font-size: 60px;
+  padding-top: 60px;
+  color: #414141; }
+  .main .home-menus div span {
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-transform: uppercase;
+    top: 75px; }
+
+.main .home-menus span {
+  color: #414141; }
+
+.main .main-message {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  height: 200px;
+  padding-top: 50px; }

@@ -1,3 +1,25 @@
 $white: #fff;
 $blue: blue;
-$field_title_color: #000;
+$black: #000;
+$light_blue: #0092ff;
+$darker_grey: #1e1e1e;
+$grey: #414141;
+
+@mixin flex() {
+    display: -webkit-box;   
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;         
+}
+@mixin flex_wrap() {
+    @include flex();
+
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@mixin flex_item() {
+    flex: 1 0 auto;
+    -webkit-box-flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+}
