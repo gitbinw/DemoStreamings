@@ -1,5 +1,5 @@
 # DemoStreamings
-Demo Streamings is written in ReactJS. It's displaying the different types of streamings.
+Demo Streamings is written in ReactJS. It's responsive designed. The main feature is loading and displaying the different types of streamings.
 
 ## Setup
 * install NodeJS
