@@ -13,7 +13,7 @@ Demo Streamings is written in ReactJS. It's displaying the different types of st
 * open http://localhost/dist in browser.
 
 ## Demo page
-* Here is a working demo page. [Click Here](https://www.itvsn.com.au/php_apps/test/uploader/dist{:target="_blank"})
+* Here is a working demo page. [Click Here](https://www.itvsn.com.au/php_apps/test/uploader/dist)
 
 ## What technologies are using?
 * NPM is package management tool from NodeJS
