@@ -1,5 +1,5 @@
 # DemoStreamings
-Demo Streamings is a task for Stan's Coding Challenge.
+Demo Streamings is written in ReactJS. It's displaying the different types of streamings.
 
 ## Setup
 * install NodeJS
