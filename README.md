@@ -12,14 +12,14 @@ Demo Streamings is a task for Stan's Coding Challenge.
 * copy dist to the webroot on your server
 * open http://localhost/dist in browser.
 
-## How did you decide which technologies to use as part of your solution?
-* Webpack is used for packing up the code
+## What technologies are using?
+* NPM is package management tool from NodeJS
+* Webpack is a bundler which is used for build and bundle the app
 * Babel is used for transfering ES6, React JSX to browser compatible js code
 * Sass is used to preprocess and organize the CSS code
+* Jest is a test framework for unit testing the ReactJS components
 
-## Are there any improvements you could make to your submission?
+## Improvements in the future
 * Some styling is not looking good, could be improved
 * The code could be organized in a better structure
-
-## What would you do differently if you were allocated more time?
-* I'll use Redux for managing the state
+* Use Redux for managing the state
